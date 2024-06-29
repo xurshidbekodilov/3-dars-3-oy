@@ -1,0 +1,341 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family: sans-serif;
+}
+.header{
+    background-color: rgba(240, 244, 248, 1);
+}
+.header__container{
+    max-width: 1245px;
+    width: 100%;
+    margin: 0 auto;
+}
+.header__firstnavbar{
+    display: flex;
+    padding-top: 19px;
+    margin-bottom: 18px;
+    background-color: rgba(240, 244, 248, 1);
+}
+.header__firstnavbar h2{
+    font-family: "Ubuntu";
+    font-size: 12px;
+    font-weight: 400;
+    line-height: 13.2px;
+    text-align: left;
+    color: rgba(110, 155, 184, 1);
+    margin-right: 68px;
+}
+.gorod{
+    display: flex;
+    gap: 6px;
+    align-items: center;
+    cursor: pointer;
+}
+.header__first__ul{
+    display: flex;
+    align-items: center;
+    margin-right: 7px;
+}
+.ulli{
+    list-style: none;
+    font-family: Ubuntu;
+    font-size: 12px;
+    font-weight: 400;
+    line-height: 13.2px;
+    text-align: left;
+    color: rgba(110, 155, 184, 1);    
+    cursor: pointer;
+}
+.secondli{
+    margin-left: 21px;
+    margin-right: 27px;
+}
+.thirdli{
+    margin-right: 23px;
+}
+.fifthli{
+    margin-left: 25px;
+    margin-right: 24px;
+}
+.seventhli{
+    margin-left: 24px;
+}
+.header__firstnavbar a{
+    margin-left: 69px;
+    text-decoration: none;
+    padding: 1px 4px;
+    border: none;
+    background-color: white;
+    border-radius: 2px;
+    font-family: "Ubuntu";
+    font-size: 12px;
+    font-weight: 400;
+    line-height: 13.2px;
+    text-align: left;
+    color: rgba(110, 155, 184, 1);
+}
+hr{
+    height: 1px;
+    width: 1245px;
+    margin-bottom: 30px;
+}
+.main__header{
+    display: flex;
+    align-items: center;
+}
+.header__ul{
+    display: flex;
+    align-items: center;
+    margin-left: 56.5px;
+    gap: 29px;
+    margin-right: 49px;
+}
+.header__ul li{
+    list-style: none;
+    font-family: "Ubuntu";
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 19.8px;
+    text-align: left;
+    color: rgba(0, 0, 222, 1);
+    cursor: pointer;
+    transition: all 0.5s ease;
+}
+.header__ul li:hover{
+    transform: scale(110%);
+}
+.phone{
+    display: flex;
+    align-items: center;
+    gap: 4px;
+    cursor: pointer;
+    margin-right: 24px;
+}
+.phone span{
+    font-family: "Ubuntu";
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 17.6px;
+    text-align: left;
+    color: rgba(0, 0, 222, 1);
+}
+.header__button--blue{
+    margin-left: 24px;
+    width: 174px;
+    height: 48px;
+    border-top-left-radius:20px;
+    border-bottom-right-radius: 20px;
+    border: 1px solid rgba(0, 0, 222, 1);
+    background-color: rgba(0, 0, 222, 1);
+    font-family: "Ubuntu";
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 15.4px;
+    text-align: center;
+    color: white;
+    cursor: pointer;
+    transition: all 0.5s ease;
+    margin-right: 15px;
+}
+.header__button--blue:hover{
+    background-color: white;
+    color: rgba(0, 0, 222, 1);
+    transform: scale(105%);
+}
+.header__button--white{
+    width: 174px;
+    height: 48px;
+    border-top-left-radius:20px;
+    border-bottom-right-radius: 20px;
+    border: 1px solid white;
+    background-color: white;
+    font-family: "Ubuntu";
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 15.4px;
+    text-align: center;
+    color: rgba(0, 0, 222, 1);
+    cursor: pointer;
+    transition: all 0.5s ease;
+    margin-right: 15px;
+}
+.header__button--white:hover{
+    background-color: rgba(0, 0, 222, 1);
+    color: white;
+    transform: scale(105%);
+    border-color: rgba(0, 0, 222, 1);
+}
+.main__hero{
+    display: flex;
+}
+.first-line{
+    margin-top: 42px;
+    margin-bottom: 49px;
+    display: flex;
+    align-items: center;
+    gap: 4px;
+}
+.first-line span{
+    font-family: "Ubuntu";
+    font-size: 10px;
+    font-weight: 400;
+    line-height: 11px;
+    text-align: left;
+    color: rgba(143, 177, 199, 1);
+    cursor: pointer;
+}
+.first-line span:hover{
+    color: rgba(0, 0, 222, 1);
+}
+.secod-line{
+    width: 613px;
+}
+.second-line h2{
+    font-family: "Ubuntu";
+    font-size: 44px;
+    font-weight: 700;
+    line-height: 48.4px;
+    text-align: left;
+    color: rgba(0, 0, 0, 1);
+    margin-bottom: 23px;
+}
+.second-line  h2 span{
+    color: rgba(0, 0, 222, 1);
+}
+.second-line p{
+    font-family: "Ubuntu";
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 23.4px;
+    text-align: left;
+    color: black;
+    margin-bottom: 42px;
+}
+.second-line-buttons{
+    display: flex;
+    align-items: center;
+    gap: 17px;
+    margin-bottom: 103px;
+}
+.blue-button{
+    width: 240px;
+    height: 68px;
+    border: 1px solid rgba(0, 0, 222, 1);
+    background-color: rgba(0, 0, 222, 1);
+    border-top-left-radius: 28px;
+    border-bottom-right-radius: 28px;
+    font-family: "Ubuntu";
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 17.6px;
+    text-align: center;
+    color: white;
+    cursor: pointer;
+    transition: all 0.5s ease;
+}
+.blue-button:hover{
+    background-color: white;
+    color: rgba(0, 0, 222, 1);
+    transform: scale(105%);
+    border-color: white;
+}
+.white-button{
+    width: 182px;
+    height: 68px;
+    border: 1px solid white;
+    background-color: white;
+    border-top-left-radius: 28px;
+    border-bottom-right-radius: 28px;
+    font-family: "Ubuntu";
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 17.6px;
+    text-align: center;
+    color: rgba(0, 0, 222, 1);    
+    cursor: pointer;
+    transition: all 0.5s ease;
+    margin-right: 153px;
+}
+.white-button:hover{
+    background-color: rgba(0, 0, 222, 1);
+    border-color: rgba(0, 0, 222, 1);
+    color: white;
+    transform: scale(105%);
+}
+.hero-img{
+    margin-top: 109px;
+}
+.section__container{
+    max-width: 1245px;
+    width: 100%;
+    margin: 0 auto;
+}
+.menus{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-top: 122px;
+    margin-bottom: 80px;
+}
+.menus div{
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+.menus div span{
+    font-family: "Ubuntu";
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 22.4px;
+    text-align: left;
+    color: black;
+}
+.products{
+    display: flex;
+    justify-content: space-between;
+    gap: 61px;
+    align-items: center;
+    margin-bottom: 91px;
+}
+.text-products h3{
+    font-family: "Ubuntu";
+    font-size: 34px;
+    font-weight: 400;
+    line-height: 37.4px;
+    text-align: left;
+    color: rgba(0, 0, 0, 1);
+    margin-bottom: 26px;
+}
+.text-products p{
+    font-family: "Ubuntu";
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 28px;
+    text-align: left;
+    color: rgba(100, 137, 160, 1);
+}
+.line1{
+    display: flex;
+    margin-bottom: 35.9px;
+}
+.line2{
+    display: flex;
+}
+.product{
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+.product p{
+    font-family: "Ubuntu";
+    font-size: 20px;
+    font-weight: 700;
+    line-height: 26px;
+    text-align: left;
+    color: black;
+    
+}
